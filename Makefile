@@ -1,8 +1,5 @@
 .PHONY: build
-all: coverage build-template
-
-build-template:
-	docker build -t faas-flow:test template/faas-flow
+all: coverage
 
 ## coverage: Generate global code coverage report
 .PHONY: coverage

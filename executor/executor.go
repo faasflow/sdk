@@ -10,7 +10,7 @@ import (
 
 	hmac "github.com/alexellis/hmac"
 	xid "github.com/rs/xid"
-	sdk "github.com/s8sg/faas-flow/sdk"
+	sdk "github.com/faasflow/sdk"
 )
 
 // RawRequest a raw request for the flow
